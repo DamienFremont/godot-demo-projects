@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b8623u0gk1acu"]
 
-[ext_resource type="Script" path="res://addons/main_screen/print_hello.gd" id="1"]
+[ext_resource type="Script" path="res://addons/main_screen/PrintHello.cs" id="1"]
 
 [node name="MainPanel" type="CenterContainer"]
 anchors_preset = 15
@@ -16,4 +16,4 @@ text = "Print Hello
 (check Output bottom panel)"
 script = ExtResource("1")
 
-[connection signal="pressed" from="PrintHello" to="PrintHello" method="_on_PrintHello_pressed"]
+[connection signal="pressed" from="PrintHello" to="PrintHello" method="OnPrintHelloPressed"]
